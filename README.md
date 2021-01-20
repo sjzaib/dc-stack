@@ -33,4 +33,8 @@ testing - in a separate terminal run
 curl localhost:8080
 ```
 
-and check docker compose logs
+and check docker compose logs or check individual container logs for each app container e.g. 
+
+```bash
+docker logs -f <container-id>
+```
